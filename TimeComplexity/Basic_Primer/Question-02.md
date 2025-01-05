@@ -1,15 +1,17 @@
+# Time and Space Complexity Analysis
 
-What is the time, space complexity of following code :
+## Code:
 
+```c
 int a = 0, b = 0; 
-for (i = 0; i < N; i++) {      //Loop1     
-    for (j = 0; j < N; j++) {  //Loop2
+for (i = 0; i < N; i++) {      // Loop1 
+    for (j = 0; j < N; j++) {  // Loop2 
         a = a + j; 
     } 
 } 
-for (k = 0; k < N; k++) {      //Loop3
+for (k = 0; k < N; k++) {      // Loop3 
     b = b + k; 
-}
+} 
 
 Solution: Here we should note that Loop1 and Loop2 are nested and not independent of each other, while Loop3 is independent of the rest.
 TIME COMPLEXITY: 
@@ -21,7 +23,7 @@ Therefore we get a time complexity of O(N^2)
 3. Next, Loop3 obviously iterates independently for N times hence has a time complexity of O(N)
 4. In Big-O notation, we focus on the dominant term (the one with the highest growth rate) while ignoring smaller terms and constants. Here "O(N) is smaller than O(N^2)" illustrated below for better clarity and understanding.
 
-Check this out : https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/
+Check this out: ![Big-O Cheat Sheet]([https://your-image-url.com](https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/))
 
 Therefore after analzying these 3 loops we jump to the conclusion that we get a time complexity of O(N^2) for the following piece of code.
 
