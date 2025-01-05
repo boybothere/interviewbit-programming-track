@@ -1,11 +1,16 @@
-What is the time complexity of the following code :
+# What is the time complexity of the following code :
+## Code:
 
-    int a = 0;
+```c
+
+ int a = 0;
     for (i = 0; i < N; i++) {        //Loop1
         for (j = N; j > i; j--) {    //Loop2
             a = a + i + j;
         }
     }
+
+```
 
 Solution: Here Loop1 and Loop2 are nested now lets analyse this by considering N as 5
 
