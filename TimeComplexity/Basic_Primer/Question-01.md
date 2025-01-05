@@ -1,8 +1,6 @@
 # Time and Space Complexity Analysis
-
-### Code Snippet
-
-```cpp
+## Code:
+```c
 int a = 0, b = 0;    
 for (i = 0; i < N; i++) {
     a = a + rand();  
@@ -10,7 +8,7 @@ for (i = 0; i < N; i++) {
 for (j = 0; j < M; j++) {
     b = b + rand();
 }
-
+```
 # Solution:
 
 IMPORTANT: Firstly, note that the 2 loops are independent of each other, hence evaluated independently.
