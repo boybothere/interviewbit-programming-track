@@ -23,7 +23,7 @@ Therefore we get a time complexity of O(N^2)
 3. Next, Loop3 obviously iterates independently for N times hence has a time complexity of O(N)
 4. In Big-O notation, we focus on the dominant term (the one with the highest growth rate) while ignoring smaller terms and constants. Here "O(N) is smaller than O(N^2)" illustrated below for better clarity and understanding.
 
-Check this out: ![Big-O Cheat Sheet]([https://your-image-url.com](https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/))
+Check this out: ![Big-O Cheat Sheet]([[https://your-image-url.com](https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/)])
 
 Therefore after analzying these 3 loops we jump to the conclusion that we get a time complexity of O(N^2) for the following piece of code.
 
