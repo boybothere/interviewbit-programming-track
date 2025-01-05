@@ -12,7 +12,8 @@ for (k = 0; k < N; k++) {      // Loop3
 } 
 ```
 
-Solution: Here we should note that Loop1 and Loop2 are nested and not independent of each other, while Loop3 is independent of the rest.
+# Solution:
+Here we should note that Loop1 and Loop2 are nested and not independent of each other, while Loop3 is independent of the rest.
 
 ## TIME COMPLEXITY: 
 1. Loop1 iterates from 0 to N-1 i.e N times and increments by 1
